@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    volumes:
+      - ./flag:/flag:ro
+    ports:
+      - 8000:8080
